@@ -1,0 +1,246 @@
+/* NAVBAR */
+.logo{
+    width: 40px;
+}
+
+/* HOME */
+.home{
+    margin-top: 100px;
+    padding-bottom: 80px;
+}
+
+.bungkus_container{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.desc_home{
+    padding-top:50px;
+    overflow-wrap: break-word;
+}
+
+.desc_home h1{
+    font-family: 'IM Fell French Canon', serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #ffbe00;
+    padding-bottom: 10px;
+}
+
+.desc_home h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color:white;
+}
+
+.img_home{
+    position: relative;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.img_home img{
+    width: 350px;
+    height:auto;
+    padding-top: 20px;
+    transition: all 0.3s ease;
+    margin-bottom: 14px;
+}
+
+.boy{
+    position:absolute;
+    left:0.5px;
+    transform: translateY(0.3px);
+    transform: translateX(10px);
+    z-index: 0;
+}
+
+.shape{
+    margin: 0, auto;
+    z-index: 99;
+    transform: translateY(0.3px);
+}
+
+.img_home:hover .boy{
+    transform: scale(1.05);
+}
+
+.img_home:hover .shape{
+    transform: scale(1.05);
+}
+
+.button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button .button_home{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.button_home:hover{
+    transition: all 0.3 ease-in-out;
+    transform: scale(1.05);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* ABOUT US */
+.about_us{
+    padding-top: 100px;
+}
+.bungkus_about_us{
+    background-color: aliceblue;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header1 h1{
+    font-family: 'Lobster', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+.img_about_us img{
+    width: 200px;
+    height:auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.isi_about_us p{
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+
+.merk{
+    color: #ffbe00;
+    font-weight: bold;
+}
+
+/* SERVICES */
+.services{
+    padding-top:80px;
+    padding-bottom: 80px;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.header2 h1{
+    font-family: 'Lobster', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.services .box-services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 50px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.services .box-services .box{
+    width:300px;
+    text-align: center;
+
+    
+}
+
+.services .box-services .box i{
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#1D355D;
+
+    
+}
+
+.isi_services{
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/* PRODUCT */
+.product{
+    padding-top: 100px;
+}
+
+.bungkus_product {
+    background-color: aliceblue;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header_product h2{
+    font-family: "Poppins", sans-serif;
+    padding-top: 20px;
+    width:fit-content;
+    font-weight: bold;
+}
+
+.product .card-product{
+    display:grid;
+}
+
+.product .card-product .card{
+    text-align: center;
+    transition: all 0.5 ease;
+    border-radius: 20px;
+}
+
+.product .card-product .card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.609); 
+}
+
+.product .card-product .card img{
+    border-radius: 20px 20px 0 0;
+}
+
+.product .card-product .card .card-body{
+    background-color: #ffbe00;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+/* SUBSCRIBE */
+.subscribe{
+    padding-top: 40px;
+}
+.desc_subs{
+    font-family: "Poppins", sans-serif;
+    color:white;
+}
+
+.form{
+    font-family: "Poppins", sans-serif;
+    padding-top: 20px;
+}
+
+.form input{
+    border: 2px solid;
+}
+
+.copy_text {
+    font-family: "Poppins", sans-serif;
+    color:black;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color:rgb(204, 204, 190);
+}
